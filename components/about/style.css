@@ -1,0 +1,45 @@
+.wrap-about {
+  background: linear-gradient(180deg, #8070e7 0%, #462bb9 100%);
+  padding: 85px 146px 200px 146px;
+  text-align: center;
+}
+.about-title {
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+.content-by-attach {
+  font-family: 'Mulish';
+  font-weight: 300;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+.highlight-blue {
+  color: #00d1ff;
+}
+.button-loan {
+  padding: 15px 22px;
+  background: #6f58ff;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  color: #ffffff;
+  cursor: pointer;
+  height: 100%;
+}
+.col-loan-cs {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.loan-icon {
+  margin-right: 20px;
+  display: flex;
+}

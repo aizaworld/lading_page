@@ -1,0 +1,27 @@
+.wrap-header {
+  background-color: #001d37;
+  padding-left: 79px;
+  padding-right: 79px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo{
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-list{
+    display: flex;
+    justify-content: flex-end;
+    color: #999999;
+    font-size: 16px;
+}
+.menu-item{
+    margin-left: 60px;
+}
+.menu-item-active{
+    color: #FFFFFF;
+}

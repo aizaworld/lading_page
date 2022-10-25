@@ -1,0 +1,21 @@
+.wrap-counter {
+  justify-content: space-between;
+  padding: 33px 141px;
+  background: linear-gradient(272.82deg, #0867D6 -3.44%, #003667 71.28%);
+}
+.wrap-content-count {
+  text-align: center;
+}
+.total {
+  color: #69f9e7;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 22px;
+}
+.number {
+  margin-top: 12px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}

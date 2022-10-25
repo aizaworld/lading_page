@@ -1,0 +1,101 @@
+.contain-hero-rarity {
+  background-image: url("../../public/images/bg-hero.png");
+  height: 1080px;
+}
+
+.contain-hero-rarity .btn-hero-rarity .hero-rarity {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+  width: 440px;
+  height: 80px;
+  background: #6f58ff;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.contain-hero-rarity .btn-hero-rarity .hero-rarity h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.icon-close-hero {
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 2;
+}
+.contain-item-hero-rarity .bg-item-hero-rarity {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contain-item-hero-rarity .bg-item-hero-rarity img.image-main {
+  width: 228px;
+  height: 330px;
+  transition: transform 0.3s; /* Animation */
+  opacity: 0.6;
+}
+
+.contain-item-hero-rarity .bg-item-hero-rarity:hover img.image-main {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+.contain-item-hero-rarity .bg-item-hero-rarity .btn-hero {
+  width: 142px;
+  height: 35px;
+  background: #6f58ff;
+  border-radius: 15px;
+  visibility: hidden;
+  transition: transform 0.3s; /* Animation */
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.contain-item-hero-rarity .bg-item-hero-rarity .btn-hero img {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.contain-item-hero-rarity .bg-item-hero-rarity:hover .btn-hero {
+  visibility: visible;
+}
+
+.contain-banner {
+  width: 100%;
+  height: 660px;
+  background-image: url('/images/banner-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.modal-hero-rarity .modal-content {
+  border: none;
+  border-radius: 14px
+}
+
+@media (min-width: 1200px){
+  .modal-xl {
+      --bs-modal-width: 1200px;
+  }
+}

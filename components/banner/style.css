@@ -1,0 +1,96 @@
+.wrap-banner {
+  padding: 69px 153px 121px 153px;
+  background: url(/images/header-banner.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banner-title {
+  font-size: 100px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.bundle {
+  font-weight: 800;
+}
+.hero {
+  font-weight: 800;
+  color: #00d1ff;
+}
+.banner-line {
+  height: 2px;
+  background-color: #ffffff;
+  width: 578px;
+  margin-top: 48px;
+}
+.banner-lauching {
+  font-weight: 300;
+  font-size: 36px;
+  color: #ffffff;
+  margin-top: 22px;
+  margin-bottom: 98px;
+}
+.get-now {
+  margin-top: 31px;
+}
+.banner-time {
+  font-weight: 700;
+}
+.login-button {
+  position: relative;
+  width: fit-content;
+  padding: 23px 32px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  z-index: 1;
+  cursor: pointer;
+}
+.login-button-content {
+  background: rgba(137, 17, 212, 0.63);
+  border-radius: 15px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.mask-login-button {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  z-index: -1;
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(
+    224.75deg,
+    #01e1ff 26.32%,
+    rgba(1, 255, 240, 0) 56.6%
+  );
+}
+.login-icon {
+  margin-right: 12px;
+}
+.get-it-now {
+  position: relative;
+  z-index: 1;
+}
+.wrap-guild-img {
+  margin: 0 60px;
+}
+.be-first {
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 59px;
+  margin-bottom: 45px;
+}

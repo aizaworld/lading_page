@@ -1,0 +1,69 @@
+.contain-ino-exchange {
+  background-image: url("../../public/images/bg-ino-exchange.png");
+  height: 1080px;
+}
+.button-ino-exchange {
+  width: 440px;
+  height: 80px;
+  background: #6f58ff;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.info-exchange {
+  width: 905px;
+}
+.info-exchange .info-exchange-detail {
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+  line-height: 32px;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-700-size-25 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.info-exchange .info-exchange-detail h3 {
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 40px;
+  line-height: 50px;
+  color: #008dff;
+}
+.info-exchange .info-exchange-detail ul {
+  margin: 0;
+  margin-bottom: 6px;
+}
+.info-exchange .info-exchange-detail p {
+  margin: 0;
+  margin-bottom: 6px;
+}
+.info-exchange .info-exchange-detail .contain-btn-exchange  {
+    padding-top: 25px;
+}
+.info-exchange .info-exchange-detail .contain-btn-exchange .btn-exchange {
+  width: 216px;
+  height: 40px;
+  background: #0896d6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.line-ino {
+    margin-top: 80px;
+    width: 100%;
+    border: 2px solid #00F0FF;
+}

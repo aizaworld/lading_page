@@ -1,0 +1,60 @@
+.wrap-faq {
+  padding: 200px 260px 200px 260px;
+  background: url(/images/faq-bg.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 1080px;
+}
+.faq-button {
+  background: #6f58ff;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 179px;
+  margin-bottom: 100px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(/images/arr-up.png);
+}
+.accordion-button::after {
+  background-image: url(/images/arr-up.png);
+}
+.accordion-item.accordion-item-cs {
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background: #092b64;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+}
+.accordion-item-cs .accordion-body{
+  padding: 20px 42px 36px 42px;
+}
+.accordion-header-cs{
+  margin-bottom: 0;
+}
+.accordion-header-cs .accordion-button{
+  background-color: #0644ad;
+  border-radius: 15px;
+  overflow: hidden;
+  color: #ffffff;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  box-shadow: none;
+  padding: 10px 19px;
+}
+

@@ -1,0 +1,32 @@
+.wrap-anatomy {
+  background: url(/images/anatomy.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+}
+.anatomy-button {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  background: #6f58ff;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: fit-content;
+  padding: 15px 74px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.samurai-img {
+  margin-top: -90px;
+}
