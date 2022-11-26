@@ -1,7 +1,9 @@
 .wrap-testimonial {
   background: linear-gradient(180deg, #665bac 0%, #462bb9 100%);
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 143px;
+  padding-left: 27px;
+  padding-right: 27px;
 }
 .testimonial-button {
   font-family: 'Mulish';
@@ -24,6 +26,7 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   overflow: hidden;
+  min-height: 100%;
 }
 .p-title {
   font-family: 'Mulish';

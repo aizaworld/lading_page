@@ -56,7 +56,8 @@ export default function BundlesInfo() {
       </div>
       <Modal
         show={show}
-        fullscreen={true}
+        size="lg"
+        centered
         onHide={() => setShow(false)}
       >
         <div className="p-0 position-relative modal-bundle-info">
@@ -105,7 +106,7 @@ const arrHero = [
     price: "30$",
     maxValue: "190$",
     image: "/images/bundle-info.svg",
-    imageActive: "/images/bundle-info-active.svg",
+    imageActive: "/images/bundle-info-active.png",
 
     // info detail
     imageHero: "/images/image-hero.png",
@@ -122,7 +123,7 @@ const arrHero = [
     price: "45$",
     maxValue: "420$",
     image: "/images/bundle-info.svg",
-    imageActive: "/images/bundle-info-active.svg",
+    imageActive: "/images/bundle-info-active.png",
     banner: "/images/banner.png",
 
      // info detail
@@ -140,7 +141,7 @@ const arrHero = [
     price: "35$",
     maxValue: "260$",
     image: "/images/bundle-info.svg",
-    imageActive: "/images/bundle-info-active.svg",
+    imageActive: "/images/bundle-info-active.png",
     banner: "/images/banner.png",
 
      // info detail

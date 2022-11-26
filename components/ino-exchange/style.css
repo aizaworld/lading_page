@@ -67,3 +67,17 @@
     width: 100%;
     border: 2px solid #00F0FF;
 }
+.contain-image-ino img {
+  width: 101px;
+  height: 68px;
+  /* cursor: pointer; */
+  margin: 6px 5px;
+}
+.no-active {
+
+}
+.image-active {
+  border: 3px solid #1D5CFF;
+  border-radius: 10px;
+  margin-top: -3px;
+}

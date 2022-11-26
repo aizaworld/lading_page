@@ -26,7 +26,7 @@ export default function Header() {
           <div className='menu-item'>AIZA NFT</div>
           <div className='menu-item'>WHY AIZA</div>
           <div className='menu-item'>INO EXCHANGE</div>
-          <div className='menu-item'>BUNDLES INFO</div>
+          <div className='menu-item'>INO EXCHANGE</div>
       </div>
     </div>
   );

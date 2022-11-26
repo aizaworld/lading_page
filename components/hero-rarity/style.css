@@ -1,5 +1,5 @@
 .contain-hero-rarity {
-  background-image: url("../../public/images/bg-hero.png");
+  /* background-image: url("../../public/images/bg-hero.png"); */
   height: 1080px;
 }
 
@@ -46,10 +46,9 @@
   align-items: center;
 }
 .contain-item-hero-rarity .bg-item-hero-rarity img.image-main {
-  width: 228px;
-  height: 330px;
+  width: 216px;
+  height: 400px;
   transition: transform 0.3s; /* Animation */
-  opacity: 0.6;
 }
 
 .contain-item-hero-rarity .bg-item-hero-rarity:hover img.image-main {
@@ -93,6 +92,38 @@
   border: none;
   border-radius: 14px
 }
+.custom-scroll {
+  overflow: scroll;
+}
+.custom-scroll::-webkit-scrollbar {
+  height: 16px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #0085FF;
+  opacity: 0.4;
+  border-radius: 15px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #00E0FF;
+  opacity: 0.4;
+  border-radius: 15px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  opacity: 1;
+}
+.custom-scroll::-webkit-scrollbar:vertical {
+  display: none;
+}
+.hover-image-light {
+  opacity: 1;
+}
+.hover-image-dark {
+  opacity: 0.5;
+}
+
 
 @media (min-width: 1200px){
   .modal-xl {

@@ -8,10 +8,12 @@ export default function HeroRarity() {
   const [show, setShow] = useState(false);
   const [hero, setHero] = useState("");
 
-  const handleShowImage = (image) => {
-    setHero(image);
-    setShow(true);
-  };
+  const [hoverIndex, setHoverIndex] = useState('');
+
+  // const handleShowImage = (image) => {
+  //   setHero(image);
+  //   setShow(true);
+  // };
 
   return (
     <div className="container-fluid contain-hero-rarity">
@@ -25,25 +27,24 @@ export default function HeroRarity() {
                 </div>
               </div>
             </div>
-            <div className="row pt-120 m-auto" style={{ width: "992px" }}>
-              <div className="col d-flex justify-content-around">
+            <div className="row m-auto" style={{ width: "992px"}}>
+              <div className="col custom-scroll d-flex">
                 {arrHero.map((item, index) => {
                   return (
                     <div
                       key={index}
-                      onClick={() => handleShowImage(item)}
+                      style={{margin: '100px 48px'}}
                     >
-                      <div className="contain-item-hero-rarity">
+                      <div className="contain-item-hero-rarity"
+                        onMouseEnter={() => setHoverIndex(index)}
+                        onMouseLeave={() => setHoverIndex('')}
+                      >
                         <div className="bg-item-hero-rarity">
                           <img
-                            className="image-main"
+                            className={`image-main ${(hoverIndex === index || hoverIndex === '' )? 'hover-image-light' : 'hover-image-dark'}`}
                             src={item.image}
                             alt={`image-${item.name}`}
                           />
-                          <div className="btn-hero">
-                            <img src={item.icon} alt={`icon-${item.icon}`} />
-                            <div className="name-hero">{item.name}</div>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -108,45 +109,35 @@ const arrHero = [
     id: 1,
     name: "Poseidon",
     icon: "/images/undead.svg",
-    image: "/images/hero-one.png",
+    image: "/images/rarity-1.png",
     banner: "/images/banner-1.png",
-    detail: {
-      name: 'Poseidon',
-      array: [
-        '/images/detail-hero-one.png',
-        '/images/detail-hero-two.png',
-        '/images/detail-hero-one.png'
-      ]
-    }
   },
   {
     id: 2,
     name: "Anubis",
     icon: "/images/god.svg",
-    image: "/images/hero-two.png",
+    image: "/images/rarity-2.png",
     banner: "/images/banner-1.png",
-    detail: {
-      name: 'Legendary',
-      array: [
-        '/images/detail-hero-one.png',
-        '/images/detail-hero-two.png',
-        '/images/detail-hero-one.png'
-      ]
-    }
   },
   {
     id: 3,
     name: "Hermes",
     icon: "/images/devil.svg",
-    image: "/images/hero-three.png",
+    image: "/images/rarity-3.png",
     banner: "/images/banner-1.png",
-    detail: {
-      name: 'Hermes',
-      array: [
-        '/images/detail-hero-one.png',
-        '/images/detail-hero-two.png',
-        '/images/detail-hero-one.png'
-      ]
-    }
   },
+  {
+    id: 4,
+    name: "Hermes",
+    icon: "/images/devil.svg",
+    image: "/images/rarity-4.png",
+    banner: "/images/banner-1.png",
+  },
+  {
+    id: 5,
+    name: "Hermes",
+    icon: "/images/devil.svg",
+    image: "/images/rarity-5.png",
+    banner: "/images/banner-1.png",
+  }
 ];

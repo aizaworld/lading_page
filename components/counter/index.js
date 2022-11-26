@@ -13,7 +13,7 @@ export default function Counter() {
           <div className="number">2,000,040 AIZA</div>
         </div>
         <div className="wrap-content-count">
-          <div className="total">Total NFTs holder</div>
+          <div className="total">Total NFT holders</div>
           <div className="number">1,500</div>
         </div>
       </div>

@@ -30,13 +30,18 @@ export default function Home() {
         <Counter />
         <About />
         <Anatomy />
-        <HeroRarity />
-        <WhyAiza />
-        <BundlesInfo />
-        <HeroChest />
+        <div className="wrap_bg">
+          <HeroRarity />
+          <WhyAiza />
+          <BundlesInfo />
+          <HeroChest />
+        </div>
+
         <InoExchange />
-        <CollectionBrand />
-        <Brand />
+        <div className="wrap_bg">
+          <CollectionBrand />
+          <Brand />
+        </div>
         <Testimonial />
         <Faq />
         <Footer />

@@ -29,7 +29,27 @@ export default function CollectionBrand() {
               style={{ paddingTop: "60px", width: "905px" }}
             >
               <div className="col d-flex justify-content-between">
+                <Swiper
+                  slidesPerView={3}
+                  spaceBetween={30}
+                  centeredSlides={true}
+                  loop={true}
+                  autoplay={{ delay: 3000 }}
+                  modules={[Autoplay]}
+                  speed={800}
+                  className="slide-brand"
+                >
                   {arrBrand.map((item, index) => {
+                    return <SwiperSlide key={index}>
+                        <div className="contain-item-brand">
+                            <div className="bg-item-brand">
+                                <img src={item} alt={`image-${index}`} width={"259px"} height={"168px"} />
+                            </div>
+                        </div>
+                    </SwiperSlide>;
+                  })}
+                </Swiper>
+                  {/* {arrBrand.map((item, index) => {
                     return (
                       <div className="contain-item-brand" key={index}>
                         <div className="bg-item-brand">
@@ -37,15 +57,15 @@ export default function CollectionBrand() {
                         </div>
                       </div>
                     );
-                  })}
+                  })} */}
               </div>
             </div>
             <div
               className="row m-auto"
-              style={{ paddingTop: "80px", width: "905px" }}
+              style={{ paddingTop: "20px", width: "905px" }}
             >
               <div className="col d-flex justify-content-between">
-                {arrBrandTwo.map((item, index) => {
+                {/* {arrBrandTwo.map((item, index) => {
                   return (
                     <div className="contain-item-brand" key={index}>
                       <div className="bg-item-brand">
@@ -53,7 +73,27 @@ export default function CollectionBrand() {
                       </div>
                     </div>
                   );
-                })}
+                })} */}
+                <Swiper
+                  slidesPerView={3}
+                  spaceBetween={30}
+                  centeredSlides={true}
+                  loop={true}
+                  autoplay={{ delay: 3000 }}
+                  modules={[Autoplay]}
+                  speed={800}
+                  className="slide-brand"
+                >
+                  {arrBrandTwo.map((item, index) => {
+                    return <SwiperSlide key={index}>
+                        <div className="contain-item-brand">
+                            <div className="bg-item-brand">
+                                <img src={item} alt={`image-${index}`} width={"259px"} height={"168px"} />
+                            </div>
+                        </div>
+                    </SwiperSlide>;
+                  })}
+                </Swiper>
               </div>
             </div>
           </div>
@@ -64,13 +104,25 @@ export default function CollectionBrand() {
 }
 
 const arrBrand = [
+  "/images/artboard-2.png",
+  "/images/artboard-3.png",
+  "/images/artboard-4.png",
+  "/images/artboard-5.png",
   "/images/artboard-6.png",
-  "/images/artboard-5.png",
-  "/images/artboard-5.png",
+  "/images/artboard-7.png",
+  "/images/artboard-8.png",
+  "/images/artboard-10.png",
+  "/images/artboard-11.png",
 ];
 
 const arrBrandTwo = [
+  "/images/artboard-2.png",
+  "/images/artboard-3.png",
   "/images/artboard-4.png",
-  "/images/artboard-1.png",
-  "/images/artboard-1.png",
+  "/images/artboard-5.png",
+  "/images/artboard-6.png",
+  "/images/artboard-7.png",
+  "/images/artboard-8.png",
+  "/images/artboard-10.png",
+  "/images/artboard-11.png",
 ];

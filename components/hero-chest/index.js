@@ -53,7 +53,12 @@ export default function HeroChest() {
           </div>
         </div>
       </div>
-      <Modal show={show} fullscreen={true} onHide={() => setShow(false)}>
+      <Modal 
+        show={show}  
+        size="lg"
+        centered 
+        onHide={() => setShow(false)}
+      >
         <div className="p-0 position-relative modal-bundle-info">
           <div className="container content-bundle">
             <img
@@ -71,8 +76,8 @@ export default function HeroChest() {
                   style={{ marginLeft: "40px" }}
                   src={chest.imageHero}
                   alt="image-hero"
-                  width={"325px"}
-                  height={"252px"}
+                  width={"305px"}
+                  height={"235px"}
                 />
               </div>
               <div className="col-md-9 d-flex justify-content-center align-items-center">
