@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     loader: 'imgix',
-    path: 'https://aiza-fac34.web.app/',
+    path: 'https://ino.aizaworld.com/',
   },
   swcMinify: true,
 };
