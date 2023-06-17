@@ -90,16 +90,25 @@ export default function HeroChest() {
                   >
                     <div className="col">
                       <h3>{chest.name}</h3>
-                      <p className='d-flex align-items-center'>
-                        Price: <div className="fw-700 mrgl-2">{chest.price}</div>
-                        <div className="d-flex align-items-center mrgl-2">
+                      <p className="d-flex align-items-center">
+                        {/* Price:{' '}
+                        <div className="fw-700 mrgl-2">{chest.price}</div> */}
+                        Price:{' '}
+                        <div className="fw-700 mrgl-2">
+                          <div className="d-flex"
+                            dangerouslySetInnerHTML={{
+                              __html: chest.price,
+                            }}
+                          ></div>
+                        </div>
+                        {/* <div className="d-flex align-items-center mrgl-2">
                           <img
                             src="/images/coin.png"
                             alt="image-hero"
                             width={'27px'}
                             height={'27px'}
                           />
-                        </div>
+                        </div> */}
                       </p>
 
                       <div className="line-bundle" />
@@ -125,7 +134,7 @@ const arrChest = [
   {
     id: 0,
     name: 'Common Box (20% OFF)',
-    price: '0.031 - 1317',
+    price: '0.031 <div class="d-flex align-items-center mrgl-2"><img src="/images/coin.png" alt="image-hero" width="27px" height="27px"/></div> <div class="mrgl-2"></div> - 1317 <div class="d-flex align-items-center mrgl-2"><img src="/images/a-coin.png" alt="image-hero" width="32px" height="32px"/></div>',
     maxValue: '190$',
     image: '/images/r4.png',
     imageActive: '/images/r4.png',
