@@ -17,6 +17,7 @@ import '../components/brand/style.css';
 import '../components/ino-exchange/style.css';
 import '../components/collection-brand/index.css';
 import '../components/hero-chest/index.css';
+import '../components/hero-chest-1/index.css';
 
 function MyApp({ Component, pageProps }) {
   return (

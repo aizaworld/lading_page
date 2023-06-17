@@ -1,0 +1,68 @@
+.contain-item-hero .bg-item-hero {
+  display: flex;
+  justify-content: center;
+}
+.contain-item-hero .bg-item-hero img {
+  width: 228px;
+  height: 207px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: transform 0.3s; /* Animation */
+}
+.contain-item-hero .bg-item-hero:hover img {
+  transform: scale(1.3);
+  opacity: 1;
+}
+.contain-item-hero .info-bundle {
+  padding-top: 50px;
+}
+.contain-item-hero .info-bundle p {
+  visibility: hidden;
+  transition: transform 0.3s;
+}
+
+.contain-item-hero:hover .info-bundle p {
+  visibility: visible;
+}
+.contain-item-hero .info-bundle h3 {
+  transition: transform 0.3s; /* Animation */
+  opacity: 0.6;
+}
+
+.contain-item-hero:hover .info-bundle h3 {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.chest-info-detail {
+  background: rgba(0, 94, 182, 0.7);
+  border-radius: 15px;
+  height: 350px;
+  width: 100%;
+  margin-left: -40px;
+  color: white;
+}
+.chest-info-detail h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #00f0ff;
+}
+.chest-info-detail p {
+  margin: 0;
+  font-size: 24px;
+}
+.chest-info-detail ul {
+  font-size: 20px;
+}
+.contain-item-hero .bg-item-hero img.image-c{
+  height: auto;
+  width: 180px;
+  margin-left: 24px;
+}
+.contain-hero-rarity-1{
+  height: 500px;
+}
+.mrgl-2{
+  margin-left: 8px;
+}

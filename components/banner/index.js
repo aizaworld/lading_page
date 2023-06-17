@@ -19,7 +19,7 @@ export default function Banner() {
             <div className="banner-line"></div>
             <div className="banner-lauching">
               Launching at{' '}
-              <span className="banner-time">September 30, 2022</span>
+              <span className="banner-time">May 31, 2023</span>
             </div>
             <div className="login-button">
               <div className="mask-login-button"></div>

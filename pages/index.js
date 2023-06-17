@@ -14,6 +14,7 @@ import InoExchange from '../components/ino-exchange';
 import Testimonial from '../components/testimonial';
 import CollectionBrand from '../components/collection-brand';
 import HeroChest from '../components/hero-chest';
+import HeroChest1 from '../components/hero-chest-1';
 
 export default function Home() {
   return (
@@ -33,7 +34,8 @@ export default function Home() {
         <div className="wrap_bg">
           <HeroRarity />
           <WhyAiza />
-          <BundlesInfo />
+          {/* <BundlesInfo /> */}
+          <HeroChest1 />
           <HeroChest />
         </div>
 
