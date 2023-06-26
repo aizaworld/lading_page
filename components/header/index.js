@@ -1,7 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import WrapImage from '../common/wrapImage';
+import Link from 'next/link';
 
 export default function Header() {
+  const [active, setActive] = useState(1);
+
+  const handleScroll = (e, id) => {
+    e.preventDefault();
+    setActive(id);
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="wrap-header">
       <div className='d-flex justify-content-center align-items-center'>
@@ -22,12 +36,45 @@ export default function Header() {
         />
       </div>
       <div className='item-list'>
-          <div className='menu-item menu-item-active'>DASHBOARD</div>
-          <div className='menu-item'>AIZA NFT</div>
-          <div className='menu-item'>WHY AIZA</div>
-          <div className='menu-item'>INO EXCHANGE</div>
-          <div className='menu-item'>INO EXCHANGE</div>
+          {
+            arrMenu.map((item, index) => (
+              <div key={item.id} className={`menu-item ${index === 0 ? "menu-item-active" : ""}`}><Link href={item.to}><a onClick={(e) => handleScroll(e, item.id)}>{item.menu}</a></Link></div>
+            ))
+          }
       </div>
     </div>
   );
 }
+
+const arrMenu = [
+  {
+    id: 1,
+    menu: "DASHBOARD",
+    to: "/"
+  },
+  {
+    id: 2,
+    menu: "AIZA NFTs",
+    to: "#aiza-nfts"
+  },
+  {
+    id: 3,
+    menu: "BUNDLES INFO",
+    to: "#bundles-info"
+  },
+  {
+    id: 4,
+    menu: "INO EXCHANGE",
+    to: "#ino-exchange"
+  },
+  {
+    id: 5,
+    menu: "BRAND NFT",
+    to: "#brand-nft"
+  },
+  {
+    id: 6,
+    menu: "TESTIMONIAL",
+    to: "#testimonial"
+  }
+]

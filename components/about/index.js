@@ -7,7 +7,7 @@ export default function About() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="about-title">ABOUT AIZA NFTs</div>
+            <div className="about-title" id="aiza-nfts">ABOUT AIZA NFTs</div>
             <div className="content-by-attach">
               By attaching AIZA NFTs to use-cases such as{' '}
               <span className="highlight-blue">

@@ -10,7 +10,7 @@ export default function CollectionBrand() {
           <div className="container">
             <div className="row">
               <div className="col d-flex flex-column align-items-center justify-content-center btn-hero-rarity">
-                <div className="btn-brand-nft">
+                <div className="btn-brand-nft" id="brand-nft">
                   <h2>BRAND NFT</h2>
                 </div>
               </div>

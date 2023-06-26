@@ -19,7 +19,7 @@ export default function Banner() {
             <div className="banner-line"></div>
             <div className="banner-lauching">
               Launching at{' '}
-              <span className="banner-time">September 30, 2022</span>
+              <span className="banner-time">May 31, 2023</span>
             </div>
             <div className="login-button">
               <div className="mask-login-button"></div>
@@ -52,27 +52,27 @@ export default function Banner() {
             <div className="wrap-guild-img">
               <WrapImage
                 desktop={{
-                  src: '/images/guild.png',
-                  width: '241px',
-                  height: '82px',
+                  src: '/images/logo-banner-1.png',
+                  width: '258px',
+                  height: '92px',
                 }}
               />
             </div>
             <div className="wrap-guild-img">
               <WrapImage
                 desktop={{
-                  src: '/images/guild.png',
-                  width: '241px',
-                  height: '82px',
+                  src: '/images/logo-banner-2.png',
+                  width: '92px',
+                  height: '92px',
                 }}
               />
             </div>
             <div className="wrap-guild-img">
               <WrapImage
                 desktop={{
-                  src: '/images/guild.png',
-                  width: '241px',
-                  height: '82px',
+                  src: '/images/logo-banner-3.png',
+                  width: '356px',
+                  height: '92px',
                 }}
               />
             </div>

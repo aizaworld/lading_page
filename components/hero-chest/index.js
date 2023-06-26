@@ -20,7 +20,7 @@ export default function HeroChest() {
             <div className="row">
               <div className="col d-flex flex-column align-items-center justify-content-center btn-hero-rarity">
                 <div className="mt-3">
-                  <img src={"/images/hero-bundle.png"} alt="hero-dundle" />
+                  <img src={"/images/hero-bundle-2.png"} alt="hero-dundle-2" />
                 </div>
               </div>
             </div>

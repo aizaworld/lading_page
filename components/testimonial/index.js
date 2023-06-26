@@ -6,7 +6,7 @@ export default function Testimonial() {
     <div className="wrap-testimonial">
       <div className="container-fluid">
         <div className="row d-flex justify-content-center">
-          <div className="testimonial-button">TESTIMONIAL</div>
+          <div className="testimonial-button" id="testimonial">TESTIMONIAL</div>
         </div>
         <div className="row">
           <div className="col">
